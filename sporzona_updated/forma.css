@@ -1,0 +1,59 @@
+body {
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+}
+
+nav {
+    background: #222;
+    display: flex;
+    gap: 4px;
+    padding: 8px 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav a:hover,
+nav a.active {
+    background: #555;
+}
+
+main {
+    margin: 30px auto;
+    padding: 0 16px;
+}
+
+.card-title {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    nav a {
+        padding: 10px;
+        text-align: center;
+    }
+}
